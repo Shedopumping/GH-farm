@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.GH-farm-all {
+  border-radius: 30px;
+  border-width: 6px;
+}
+
+body {
+  background-color: rgb(228, 222, 222);
+  
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.first-layer {
+  background-color: green;
+  border: solid;
+  border-color: rgb(247, 247, 127);
+  border-width: 6px;
+  border-radius: 25px;
+}
+
+.project-button {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.email-button {
+  background-color: rgb(51, 196, 51);
+  border: none;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.email-button:hover {
+  transform: scale(0.8);
+ }
+
+.email {
+  color: white;
+  text-decoration: none;
+}
+
+.pro-button {
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-right: 15px;
+}
+
+.pro-button:hover {
+  transform: scale(0.8);
+}
+
+
+.team-button {
+  border: none;
+  background-color: white;
+  color: green;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+  left: 1130px;
+  bottom: -20px;
+}
+
+.team-button:hover {
+ transform: scale(0.8);
+}
+
+.first-text, .second-text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.second-text {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.comb-text {
+  margin-left: 20px;
+}
+
+.farm-logo {
+  width: 300px;
+}
+
+.farmer {
+  border-radius: 130px;
+  width: 300px;
+  height: 270px;
+  border: solid;
+  border-color: white;
+  border-style: dotted;
+}
+
+.farmer-logo {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+.second-layer {
+  background-color: rgb(247, 247, 127);
+  border-radius: 20px;
+  border: solid;
+  border-color: green;
+  border-width: 6px;
+}
+
+.team-aim {
+  text-decoration-line: underline;
+  color: green;
+  padding-left: 10px;
+}
+
+.definition {
+  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.crops-image {
+  width: 500px;
+  border-radius: 40px;
+  border: solid;
+  border-color: green;
+  border-width: 6px;
+  margin-top: 20px;
+}
+
+.farm-qoute, .farm-crops {
+display: inline-block;
+}
+
+.farm-crops {
+ padding-left: 50px;
+ padding-bottom: 20px;
+}
+
+.farm-qoute {
+  font-weight: bold;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: green;
+  position: relative;
+  margin-left: 100px;
+  bottom: 150px;
+}
+
+.team-headline {
+  text-decoration-line: underline;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.team-images {
+  width: 150px;
+  border: solid;
+  border-color: rgb(3, 173, 3);
+  border-radius: 100%;
+}
+
+.Visionaries-profile {
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+
+.general-profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 100px;
+  column-gap: 24px;
+  margin-top: 50px;
+}
+
+.name-style {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.team-members {
+  font-weight: bold;
+}
+
+.general-partner {
+  margin-left: 600px;
+  position: relative;
+  top: 110px;
+}
+
+.partner-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.partner-image {
+  width: 95px;
+  padding-left: 12px;
+}
+
+.sindhu-image {
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sindhu-info {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sindhu-general {
+  margin-left: 400px;
+}
+
+@media (max-width: 500px) {
+  .comb-text {
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .first-text {
+    font-size: 30px;
+  }
+  .second-text {
+    font-size: 20px;
+  }
+
+  .team-button {
+    position: relative;
+    left: 170px;
+    margin-top: -100px;
+    bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  .farmer-logo {
+    margin-left: auto;
+    padding-left: 38px;
+    padding-bottom: 8px;
+  }
+
+  .farm-logo, .farmer {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .team-aim {
+    padding-left: 15px;
+  }
+
+  .definition {
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .crops-image {
+    width: 180px;
+    border-radius: 40px;
+    border: solid;
+    border-color: green;
+    border-width: 3px;
+  }
+
+  .farm-crops {
+    padding-left: 10px;
+    padding-bottom: 14px;
+    margin-top: 50px;
+   }
+
+   .farm-qoute {
+    width: auto;
+    font-size: 20px;
+    position: relative;
+    margin-left: 212px;
+    margin-top: 25px;
+   }
+
+   .general-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 24px;
+   }
+
+   .profile-image {
+    width: 10px;
+   }
+
+   .Visionaries-profile {
+    padding-left: 9px;
+  }
+
+  .name-style, .team-members {
+    padding-left: 36px;
+  }
+  
+  .email-button, .pro-button {
+    margin-left: 35px;
+  }
+
+
+  .partner-text {
+    font-size: 28px;
+    position: relative;
+    right: 700px;
+  }
+  
+  .partner-image {
+    width: 75px;
+  }
+
+  .general-partner {
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 750px;
+    padding-top: 50px;
+  }
+
+  .team-headline {
+    font-size: 30px;
+  }
+
+  .sindhu-image {
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .sindhu-info {
+    font-size: 18px;
+  }
+
+  .sindhu-general {
+    position: relative;
+    margin-left: 120px;
+    bottom: 150px;
+    padding-top: 30px;
+  }
+
+  .project-button {
+    position: relative;
+    bottom: 30px;
+    margin-left: 15px;
+  }
+}

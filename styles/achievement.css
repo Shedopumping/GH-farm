@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.achieve-all-body {
+  background-color: rgb(247, 247, 127);
+  margin-top: 20px;
+}
+
+
+.testimony {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: green;
+  color: white;
+  border: solid;
+  border-width: 8px;
+  border-color: rgb(136, 116, 2);
+  border-radius: 20px;
+}
+
+.general-certificate {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 50px;
+}
+
+.previous-page {
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.previous-page:hover {
+ transform: scale(0.8);
+}
+
+.previous-button {
+  margin-left: 1180px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+  .testimony {
+    font-size: 20px;
+  }
+
+  .general-certificate {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  .personal-certificate {
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+
+  .previous-button {
+    position: relative;
+    right: 880px;
+    top: 20px;
+    margin-top: 5px;
+  }
+}
