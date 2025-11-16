@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore G.H Farms Projects: Green Warrior for Kids & Farm Site Maize Initiative">
+    <title>Our Projects - G.H Farms</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GTUk4o5aQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <button class="hamburger" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+    <nav class="sticky-nav" id="navMenu">
+        <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="achievement.html" onclick="toggleMenu()">Achievements</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="green-warrior">
+            <h1>GREEN WARRIOR INITIATIVE FOR KIDS</h1>
+            <p>
+              G.H farms is working on getting kids into the field of Agriculture with the aim of making them great future leaders and to make them excel in their academics. Our mission is to reach up to 200+ schools before 2026.
+            </p>
+            <div class="general-student">
+                <figure class="student"><a href="#kids1" class="lightbox-link"><img src="GH farm images/02-students.jpg" alt="Kids in agriculture workshop" loading="lazy"></a></figure>
+                <figure class="student"><a href="#kids2" class="lightbox-link"><img src="GH farm images/03-students.jpg" alt="Students planting seeds" loading="lazy"></a></figure>
+                <figure class="student"><a href="#kids3" class="lightbox-link"><img src="GH farm images/04-students.jpg" alt="Green Warrior event" loading="lazy"></a></figure>
+                <figure class="student"><a href="#kids4" class="lightbox-link"><img src="GH farm images/05-students.jpg" alt="Youth farming activity" loading="lazy"></a></figure>
+            </div>
+        </section>
+
+        <section class="farm-site">
+            <h1>FARM SITE PROJECT</h1>
+            <p>
+              Photo speaks of the farm's maize project. Documented below shows the growth of the farm from the stage of land preparation to harvesting and marketing of the farm produce.
+            </p>
+            <div class="general-land">
+                <figure class="land"><a href="#land1" class="lightbox-link"><img src="GH farm images/01-farmland.jpg" alt="Land preparation" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land2" class="lightbox-link"><img src="GH farm images/02-plough.jpg" alt="Planting stage" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land3" class="lightbox-link"><img src="GH farm images/seeds.jpg" alt="Growth phase" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land4" class="lightbox-link"><img src="GH farm images/01-plough.jpg" alt="Harvesting" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land5" class="lightbox-link"><img src="GH farm images/01-maize.jpg" alt="Marketing produce" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land6" class="lightbox-link"><img src="GH farm images/02-maize.jpg" alt="Maize growth" loading="lazy"></a></figure>
+                <figure class="land"><a href="#land7" class="lightbox-link"><img src="GH farm images/03-maize.jpg" alt="Maize harvest" loading="lazy"></a></figure>
+            </div>
+        </section>
+
+        <div id="kids1" class="lightbox"><img src="GH farm images/02-students.jpg" alt="Kids Workshop Enlarged"></div>
+        <div id="kids2" class="lightbox"><img src="GH farm images/03-students.jpg" alt="Students Planting Enlarged"></div>
+        <div id="kids3" class="lightbox"><img src="GH farm images/04-students.jpg" alt="Green Warrior Event Enlarged"></div>
+        <div id="kids4" class="lightbox"><img src="GH farm images/05-students.jpg" alt="Youth Activity Enlarged"></div>
+        <div id="land1" class="lightbox"><img src="GH farm images/01-farmland.jpg" alt="Land Prep Enlarged"></div>
+        <div id="land2" class="lightbox"><img src="GH farm images/02-plough.jpg" alt="Planting Stage Enlarged"></div>
+        <div id="land3" class="lightbox"><img src="GH farm images/seeds.jpg" alt="Growth Phase Enlarged"></div>
+        <div id="land4" class="lightbox"><img src="GH farm images/01-plough.jpg" alt="Harvesting Enlarged"></div>
+        <div id="land5" class="lightbox"><img src="GH farm images/01-maize.jpg" alt="Marketing Enlarged"></div>
+        <div id="land6" class="lightbox"><img src="GH farm images/02-maize.jpg" alt="Maize Growth Enlarged"></div>
+        <div id="land7" class="lightbox"><img src="GH farm images/03-maize.jpg" alt="Maize Harvest Enlarged"></div>
+
+        <nav class="previous-button-1">
+            <a href="index.html"><button class="previous-page-1">← Back to Home</button></a>
+        </nav>
+    </main>
+
+    <footer class="footer-shared">
+        <p>&copy; 2025 G.H Farms Ltd. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('open');
+        }
+        document.querySelector('.hamburger').addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>

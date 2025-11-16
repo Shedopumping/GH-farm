@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Team Achievements at G.H Farms - Certified for Greener Impact">
+    <title>Team Achievements - G.H Farms</title>
+    <link rel="stylesheet" href="styles/achievement.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GTUk4o5aQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <button class="hamburger" aria-label="Toggle Menu"><i class="fas fa-bars"></i></button>
+    <nav class="sticky-nav" id="navMenu">
+        <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="achievement.html" onclick="toggleMenu()">Achievements</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <header class="testimony">
+            EST GRP Certifies G.H farm's team members for their dedication to making the world more greener and for inspiring the younger generation.
+        </header>
+
+        <section class="general-certificate">
+            <figure><a href="#lightbox1" class="lightbox-link"><img src="GH farm images/kola-cert.jpg" alt="Kolawole certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox2" class="lightbox-link"><img src="GH farm images/saheed-cert.jpg" alt="Saheed certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox3" class="lightbox-link"><img src="GH farm images/dolapo-cert.jpg" alt="Adedolapo certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox4" class="lightbox-link"><img src="GH farm images/ibk-cert.jpg" alt="Ibk certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox5" class="lightbox-link"><img src="GH farm images/basit-cert.jpg" alt="Abdulbasit certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox6" class="lightbox-link"><img src="GH farm images/evans-cert.jpg" alt="Evans certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox7" class="lightbox-link"><img src="GH farm images/alfred-cert.jpg" alt="Alfred certificate" loading="lazy"></a></figure>
+            <figure><a href="#lightbox8" class="lightbox-link"><img src="GH farm images/mubarak-cert.jpg" alt="Mubarak certificate" loading="lazy"></a></figure>
+        </section>
+
+        <div id="lightbox1" class="lightbox"><img src="GH farm images/kola-cert.jpg" alt="Kolawole certificate Enlarged"></div>
+        <div id="lightbox2" class="lightbox"><img src="GH farm images/saheed-cert.jpg" alt="Saheed certificate Enlarged"></div>
+        <div id="lightbox3" class="lightbox"><img src="GH farm images/dolapo-cert.jpg" alt="Adedolapo certificate Enlarged"></div>
+        <div id="lightbox4" class="lightbox"><img src="GH farm images/ibk-cert.jpg" alt="Ibk certificate Enlarged"></div>
+        <div id="lightbox5" class="lightbox"><img src="GH farm images/basit-cert.jpg" alt="Abdulbasit certificate Enlarged"></div>
+        <div id="lightbox6" class="lightbox"><img src="GH farm images/evans-cert.jpg" alt="Evans certificate Enlarged"></div>
+        <div id="lightbox7" class="lightbox"><img src="GH farm images/alfred-cert.jpg" alt="Alfred certificate Enlarged"></div>
+        <div id="lightbox8" class="lightbox"><img src="GH farm images/mubarak-cert.jpg" alt="Mubarak certificate Enlarged"></div>
+
+        <nav class="previous-button">
+            <a href="index.html"><button class="previous-page">← Back to Home</button></a>
+        </nav>
+    </main>
+
+    <footer class="footer-shared">
+        <p>&copy; 2025 G.H Farms Ltd. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('open');
+        }
+        document.querySelector('.hamburger').addEventListener('click', toggleMenu);
+    </script>
+</body>
+</html>
